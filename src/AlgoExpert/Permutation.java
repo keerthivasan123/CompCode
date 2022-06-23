@@ -29,6 +29,7 @@ public class Permutation
 		arr.add(1);
 		arr.add(2);
 		arr.add(3);
+		arr.add(4);
 		List<List<Integer>> result = new ArrayList<>();
 		generatePermutation(arr, result, 0);
 		for(List<Integer> r : result){
